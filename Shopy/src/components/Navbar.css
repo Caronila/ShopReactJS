@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Mulish:wght@300&family=Roboto&display=swap');
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:10px;
+    margin: 0;
+}
+
+li {
+font-family: Mulish;
+font-size: 32px;
+color: azure;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+  }
+
+nav {
+    background-color: #b6d9dd ;
+ 
+}
+

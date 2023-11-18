@@ -1,14 +1,15 @@
 import './App.css'
+import NavBar from './components/NavBar'
 
 function App() {
   
 
   return (
-    <>
-    <h1><i class="bi bi-bag-heart-fill"></i>Te damos la bienvenida a nuestra tienda</h1>
+    <> 
+    <NavBar/>
+   
       <div>
-        
-       </div>
+           </div>
     </>
   )
 }
