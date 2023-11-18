@@ -1,6 +1,21 @@
-.card{
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+  }
+  
+  .card {
+    width: 18rem; 
+    margin-bottom: 20px; 
+    background-color:#698c90 ;
+  }
+  
+  .btn-primary {
+    background-color:#e6d1b2;
+    border-color: #ffd085 ;
+  }
 
-display: grid;
-text-align: center;
+  .btn:hover {
+background-color: #b6d9dd;
 
-}
+  }
