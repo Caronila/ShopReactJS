@@ -5,7 +5,7 @@ const Productos = () => {
   return (
     <div className="card-deck">
       <div className="card">
-        <img className="card-img-top" src="..." alt="Card image cap" />
+        <img className="card-img-top" src='/assets/producto1.jpg' alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
@@ -32,7 +32,7 @@ const Productos = () => {
             <small className="text-muted">Last updated 3 mins ago</small>
           </p>
           <button type="button" className="btn btn-primary">
-          Comprar
+            Comprar
           </button>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Productos = () => {
             <small className="text-muted">Last updated 3 mins ago</small>
           </p>
           <button type="button" className="btn btn-primary">
-          Comprar
+            Comprar
           </button>
         </div>
       </div>
