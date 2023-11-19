@@ -3,7 +3,7 @@ import './Productos.css';
 
 const Productos = () => {
   return (
-    <body>
+    <main className='productos'>
     <div className="card-deck">
       <div className="card">
         <img className="card-img-top" src="src/assets/producto1.jpg" alt="Producto 1" />
@@ -60,7 +60,7 @@ const Productos = () => {
       </div>
 
     </div>
-    </body>
+    </main>
   );
 }
 
