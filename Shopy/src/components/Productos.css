@@ -1,21 +1,32 @@
 .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; 
-  }
-  
-  .card {
-    width: 18rem; 
-    margin-bottom: 20px; 
-    background-color:#698c90 ;
-  }
-  
-  .btn-primary {
-    background-color:#e6d1b2;
-    border-color: #ffd085 ;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-  .btn:hover {
-background-color: #b6d9dd;
+}
 
-  }
+.card {
+  width: 18rem;
+  background-color: #698c90;
+  margin: 60px 60px 60px 60px;
+}
+
+.btn-primary {
+  background-color: #e6d1b2;
+  border-color: #ffd085;
+}
+
+.btn:hover {
+  background-color: #b6d9dd;
+
+}
+
+card-img-top {
+  width: 200px;
+  height: 200px;
+}
+
+body{
+  background-color: #b6d9dd;
+}

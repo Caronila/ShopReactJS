@@ -4,23 +4,32 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap:10px;
+    gap: 10px;
     margin: 0;
 }
 
 li {
-font-family: Mulish;
-font-size: 32px;
-color: azure;
+    font-family: Mulish;
+    font-size: 32px;
+    color: azure;
+    font-weight: bold;
 }
 
 h1 {
     text-align: center;
     color: azure;
-  }
-
-nav {
-    background-color: #b6d9dd ;
- 
 }
 
+nav {
+    background-color: #b6d9dd;
+    height: 80px;
+    padding: 10px;
+}
+
+a {
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

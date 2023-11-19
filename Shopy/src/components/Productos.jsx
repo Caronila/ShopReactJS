@@ -3,57 +3,64 @@ import './Productos.css';
 
 const Productos = () => {
   return (
+    <body>
     <div className="card-deck">
       <div className="card">
-        <img className="card-img-top" src='/assets/producto1.jpg' alt="Card image cap" />
+        <img className="card-img-top" src="src/assets/producto1.jpg" alt="Producto 1" />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">Producto 1</h5>
           <p className="card-text">
-            This is a longer card with supporting text below as a natural lead-in to
-            additional content. This content is a little bit longer.
+            descripción de producto 1
           </p>
+
+          <button type="button" className="btn btn-primary">
+            Comprar
+          </button>
+        </div>
+      </div>
+
+      <div className="card">
+        <img className="card-img-top" src="src/assets/producto4.jpg" alt="Producto 2" />
+        <div className="card-body">
+          <h5 className="card-title">Producto 2</h5>
           <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
+            descripción de producto 2
           </p>
+
           <button type="button" className="btn btn-primary">
             Comprar
           </button>
         </div>
       </div>
       <div className="card">
-        <img className="card-img-top" src="..." alt="Card image cap" />
+        <img className="card-img-top" src="src/assets/producto3.jpg" alt="Producto 3" />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">Producto 3</h5>
           <p className="card-text">
-            This card has supporting text below as a natural lead-in to additional
-            content.
+          descripción de producto 3
           </p>
-          <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </p>
+
           <button type="button" className="btn btn-primary">
             Comprar
           </button>
         </div>
       </div>
       <div className="card">
-        <img className="card-img-top" src="..." alt="Card image cap" />
+        <img className="card-img-top" src="src/assets/producto5.jpg" alt="Producto 4" />
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">Producto 4</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in to
-            additional content. This card has even longer content than the first to
-            show that equal height action.
+          descripción de producto 4
           </p>
-          <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </p>
+
           <button type="button" className="btn btn-primary">
             Comprar
           </button>
         </div>
       </div>
+
     </div>
+    </body>
   );
 }
 
