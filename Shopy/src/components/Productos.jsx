@@ -4,6 +4,7 @@ import './Productos.css';
 const Productos = () => {
   return (
     <main className='productos'>
+      <h1>Nuestros productos</h1>
     <div className="card-deck">
       <div className="card">
         <img className="card-img-top" src="src/assets/producto1.jpg" alt="Producto 1" />
