@@ -52,7 +52,7 @@ const Productos = () => {
       </div>
       {showSuccessMessage && (
         <div className='success-message'>
-          ¡Haz comprado con éxito! La página se recargará en unos segundos.
+          ¡Gracias por su compra! La página se recargará en unos segundos.
         </div>
       )}
     </main>
