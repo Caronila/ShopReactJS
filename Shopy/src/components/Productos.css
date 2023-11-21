@@ -42,3 +42,13 @@ h1 {
   color: #698c90;
   user-select: none;
 }
+
+.success-message
+
+{
+  font-size: 32px;
+  font-weight: bold;
+  color:rgb(38, 42, 46);
+  text-align: center;
+  
+}
