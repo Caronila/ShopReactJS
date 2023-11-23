@@ -3,10 +3,10 @@ import './Productos.css';
 
 const Productos = () => {
   const [productos, setProductos] = useState([
-    { id: 1, comprado: false },
-    { id: 2, comprado: false },
-    { id: 3, comprado: false },
-    { id: 4, comprado: false },
+    { id: 1, comprado: false, nombre: 'Aceite de anana', descripcion: 'Exquisito aceite organico de anana y frutas.', precio: '$5', SKU: '123456', cantidadDisponible: 10 },
+    { id: 2, comprado: false, nombre: 'Kit cosmetica', descripcion: 'Obtene un kit especialmente para el cuidado de la piel.', precio: '$30', SKU: '124456', cantidadDisponible: 10 },
+    { id: 3, comprado: false, nombre: 'Cuidado del cabello', descripcion: 'Todo lo que necesitas para el cuidado de tu cabello.', precio: '$40', SKU: '123455', cantidadDisponible: 10 },
+    { id: 4, comprado: false, nombre: 'Para regalar', descripcion: 'Caja ideal para regalar a esa persona especial.', precio: '$70', SKU: '133456', cantidadDisponible: 10 },
   ]);
 
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -23,7 +23,6 @@ const Productos = () => {
     setShowSuccessMessage(true);
 
     setTimeout(() => {
-     
       window.location.reload();
     }, 3000);
   };
@@ -36,8 +35,13 @@ const Productos = () => {
           <div className="card" key={producto.id}>
             <img className="card-img-top" src={`src/assets/producto${producto.id}.jpg`} alt={`Producto ${producto.id}`} />
             <div className="card-body">
-              <h5 className="card-title">{`Producto ${producto.id}`}</h5>
-              <p className="card-text">{`Descripción de producto ${producto.id}`}</p>
+              <h5 className="card-title">{producto.nombre}</h5>
+              <p className="card-text">{producto.descripcion}</p>
+              <ul className='descripcion'>
+                <li className='listas'>Precio: {producto.precio}</li>
+                <li className='listas'>SKU: {producto.SKU}</li>
+                <li className='listas'>Cantidad disponible: {producto.cantidadDisponible}</li>
+              </ul>
               <button
                 type="button"
                 className="btn btn-primary"
