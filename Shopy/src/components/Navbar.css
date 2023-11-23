@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Mulish:wght@300&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 ul {
     display: flex;
     justify-content: space-between;
@@ -9,10 +9,16 @@ ul {
 }
 
 li {
-    font-family: Mulish;
-    font-size: 32px;
-    color: azure;
+    font-family: Mulish;  
+    
     font-weight: bold;
+    border-radius: 24px;
+   
+    
+}
+
+li:hover {
+    background-color: #698c90;
 }
 
 h1 {
@@ -21,15 +27,21 @@ h1 {
 }
 
 nav {
-    background-color: #b6d9dd;
+    background-image: url('/src/assets/backgroundpattern.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80px;
     padding: 10px;
 }
 
 a {
     display: block;
-    color: azure;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+    color: rgb(220, 255, 229);
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: #698c90;
+}
+
