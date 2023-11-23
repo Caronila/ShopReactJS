@@ -1,0 +1,19 @@
+.conocenosP {
+    text-align: left;
+    font-size: 24px;
+    margin: 1rem;
+}
+
+.conocenos {
+    text-align: left;
+    font-weight: bold;
+    margin: 1rem;
+    color: rgb(74, 41, 70);
+}
+
+.conocenosB {
+    text-align: center;
+    margin: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
