@@ -4,6 +4,7 @@ import './Conocenos.css';
 const Conocenos = () => {
     return (
         <main>
+            <div ><img className='banner' src='src/assets/banner.jpg'></img></div>
             <div>
                 <h1 className='conocenos'>Conócenos</h1>
                 <p className='conocenosP'>Bienvenido a Shopy, el lugar donde la armonía y el bienestar se encuentran. Nos dedicamos con pasión a ofrecerte una experiencia única en el fascinante mundo de la aromaterapia.</p>
